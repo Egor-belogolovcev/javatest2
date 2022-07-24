@@ -1,13 +1,13 @@
 public class main {
 
     public static void main(String[] args) {
-        int ticket_cost = 999;
-        int bonus_miles_rub = 20;
-        boolean a = ticket_cost>=bonus_miles_rub;
+        int ticketCost = 999;
+        int bonusMilesRub = 20;
+        boolean miles = ticketCost>=bonusMilesRub;
 
         int amount_miles;
-        if (a) {
-            amount_miles = ticket_cost/bonus_miles_rub;
+        if (miles) {
+            amount_miles = ticketCost/bonusMilesRub;
         } else {
             amount_miles = 0;
         }
