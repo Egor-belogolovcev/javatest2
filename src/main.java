@@ -5,12 +5,12 @@ public class main {
         int bonusMilesRub = 20;
         boolean miles = ticketCost>=bonusMilesRub;
 
-        int amount_miles;
+        int amountMiles;
         if (miles) {
-            amount_miles = ticketCost/bonusMilesRub;
+            amountMiles = ticketCost/bonusMilesRub;
         } else {
-            amount_miles = 0;
+            amountMiles = 0;
         }
-        System.out.println(amount_miles);
+        System.out.println(amountMiles);
     }
 }
